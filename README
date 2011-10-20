@@ -1,1 +1,11 @@
 Simple thingy to SNMP poll a NSN hIT7300!
+......................................................................
+This library, which isn't very complete, aims to help in creating a NSN
+"session" with their hIT7300 DWDM boxes. They are basically both 
+configured and monitored via SNMP but to talk to them a "session" needs
+to be established. This is done by writing some SNMP OID at start of your
+communcation. Unfortunately I no longer have access to the box I was 
+developing this for so this will likely grind to a halt. But for anyone
+curious on how to talk to a hIT7300, look for a "session init" in SNMP at
+the startup of the management client and you'll figure it out.
+Please share code! =)
